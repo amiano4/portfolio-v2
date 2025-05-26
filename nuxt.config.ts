@@ -12,6 +12,7 @@ export default defineNuxtConfig({
 		"@nuxt/fonts",
 		"@nuxt/icon",
 		"nuxt-particles",
+		"@nuxt/image",
 	],
 
 	fonts: {
