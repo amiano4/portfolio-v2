@@ -1,8 +1,9 @@
-name: Generate and Deploy Static Nuxt.js Project
+name: Generate and Deploy Static Nuxtjs Project
 
 on:
   push:
-    branches: [main]
+    branches: 
+			- main
 
 jobs:
   build:
@@ -36,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     name: Deploy static page
-		environment: hostinger-deployment
+    environment: hostinger-deployment
 
     steps:
       - name: Download artifact
