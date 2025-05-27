@@ -31,10 +31,14 @@ export default defineNuxtConfig({
     },
   },
 
-  // optimize images
+  // pre-render images
   nitro: {
     prerender: {
-      routes: ["/_ipx/s_40x40/logo.png", "/_ipx/_/images/almario.png"],
+      routes: [
+        // ..
+        "/_ipx/s_40x40/logo.png",
+        "/_ipx/_/images/almario.png",
+      ],
     },
   },
 });
