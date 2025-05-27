@@ -2,8 +2,8 @@ name: Generate and Deploy Static Nuxtjs Project
 
 on:
   push:
-    branches: 
-			- main
+    branches:
+      - main
 
 jobs:
   build:
