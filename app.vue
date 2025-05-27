@@ -24,6 +24,6 @@ useSeoMeta({
   ogTitle: title,
   description,
   ogDescription: description,
-  ogImage: "https://almario.dev/_/static/portfolio-preview.png",
+  ogImage: "https://static.almario.dev/portfolio-preview.png",
 });
 </script>
