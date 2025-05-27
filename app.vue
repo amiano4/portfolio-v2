@@ -25,5 +25,9 @@ useSeoMeta({
   description,
   ogDescription: description,
   ogImage: "https://static.almario.dev/portfolio-preview.png",
+  keywords:
+    "Full Stack Developer, Freelancer, Laravel, Vue.js, Quasar, Almario Miano",
+  ogUrl: "https://portfolio.almario.dev",
+  ogType: "website",
 });
 </script>
