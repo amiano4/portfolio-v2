@@ -18,13 +18,13 @@ jobs:
         with:
           node-version: 20
 
-      - name: Cache node_modules
+      - name: Cache npm
         uses: actions/cache@v3
         with:
-          path: node_modules
-          key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-modules-
+            ${{ runner.os }}-npm-
 
       - name: Install deps
         run: npm ci
