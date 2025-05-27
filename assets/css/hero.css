@@ -74,6 +74,11 @@
 		animation: bounce-mask 3s ease-in-out infinite;
 	}
 
+	.hero .floating-code {
+		animation: bounce-mask 4s ease-in-out infinite;
+		animation-delay: 1000;
+	}
+
 	.hero .content {
 		padding-left: calc(var(--hero-mask-img-size) / 2 + 3rem);
 	}
@@ -105,10 +110,6 @@
 		padding: 0 1.5rem;
 		justify-content: center;
 		text-align: center;
-	}
-
-	.hero .contentxx {
-		max-width: 100%;
 	}
 
 	/* Remove animations on mobile */

@@ -14,16 +14,19 @@ export default defineNuxtConfig({
 		"nuxt-particles",
 		"@nuxt/image",
 	],
-
 	fonts: {
 		provider: "google",
 	},
-
-	particles: {
-		lazy: false,
-	},
-
 	vite: {
 		plugins: [tailwindcss()],
+	},
+	app: {
+		head: {
+			title: "Portfolio | Almario Miano",
+			htmlAttrs: {
+				lang: "en",
+			},
+			link: [{ rel: "icon", type: "image/x-icon", href: "logo.png" }],
+		},
 	},
 });
